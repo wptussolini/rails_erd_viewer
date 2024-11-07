@@ -16,7 +16,13 @@ Gem::Specification.new do |spec|
                    'rails_erd_viewer.gemspec', '.github/*.md',
                    'Gemfile', 'Rakefile']
   spec.extra_rdoc_files = ['README.md']
+  spec.add_development_dependency 'codecov', '~> 0.6'
+  spec.add_development_dependency 'rails', '~> 8.0.0'
+  spec.add_development_dependency 'rake', '~> 13.0'
+  spec.add_development_dependency 'rspec', '~> 3.13'
+  spec.add_development_dependency 'rspec-rails', '~> 7'
   spec.add_development_dependency 'rubocop', '~> 1.68.0'
   spec.add_development_dependency 'rubocop-performance', '~> 1.20'
   spec.add_development_dependency 'rubocop-rspec', '~> 3.2.0'
+  spec.add_development_dependency 'simplecov', '~> 0.20'
 end

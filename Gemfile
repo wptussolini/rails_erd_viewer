@@ -1,8 +1,6 @@
 source 'http://rubygems.org'
 gemspec
 
-group :development do
-  gem 'rubocop', '~> 1.68.0'
-  gem 'rubocop-performance', '~> 1.20'
-  gem 'rubocop-rspec', '~> 3.2.0'
+group :test do
+  gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 end
